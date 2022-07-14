@@ -8,7 +8,7 @@ interface RetrofitClient {
 
     @GET("StudentModel.json")
 
-     fun getAllstudents(@Query(StudentModel("", 10, "", "").toString()) : Call<StudentModel>
+     fun getAllstudents(@Query(StudentModel("", 10, "", "").toString()) : Call<StudentModel>)
 
 
     }
