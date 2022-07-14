@@ -13,6 +13,8 @@ class ReportCardScreen : AppCompatActivity() {
 
         backButton= findViewById(R.id.back_button)
 
-        backButton.setOnClickListener(MainActivity::class.java)
+        backButton.setOnClickListener {
+            (MainActivity::class.java)
+        }
     }
 }
